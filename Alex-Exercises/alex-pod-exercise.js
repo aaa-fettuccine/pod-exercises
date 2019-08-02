@@ -91,6 +91,20 @@ console.log(box([
     "####"
 ]));
 
+// Bonuse Java Exercise from java II
+
+// multiply loop
+
+//
+// public static double multiply(double num, double num2) {
+//     double result = 0.0D;
+//
+//     for(int i = 0; (double)i < num2; ++i) {
+//         result += num;
+//     }
+//
+//     return result;
+// }
 
 
 
