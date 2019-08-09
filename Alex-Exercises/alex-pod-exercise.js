@@ -106,7 +106,106 @@ console.log(box([
 //     return result;
 // }
 
+// tik tac toe
 
+// private static void printBoard(char[][] board) {
+//     for (char[] row : board) {
+//         System.out.println("+---+---+---+");
+//
+//         System.out.print("| ");
+//
+//         for (char n : row) {
+//             System.out.print(n + " | ");
+//         }
+//
+//         System.out.println();
+//     }
+//     System.out.println("+---+---+---+");
+//
+// }
+// public static void main(String[] args) {
 
+// char[][] tictactoe = {
+// {' ',' ',' '},
+// {' ',' ',' '},
+// {' ',' ',' '}
+// };
+//
+// tictactoe[2][1] = 'X';
+//
+// tictactoe[2][2] = 'O';
+//
+// tictactoe[1][0] = 'X';
+//
+// tictactoe[0][2] = 'O';
+//
+// tictactoe[1][2] = 'X';
+//
+// tictactoe[1][1] = 'O';
+//
+// tictactoe[0][0] = 'X';
+//
+// tictactoe[2][0] = 'O';
+//
+// printBoard(tictactoe);
+// }
+// }
 
+//
+// Grades Bonus//
+
+// Method:
+//     public ArrayList<Integer> getGrades() {
+//     return this.grades;
+// }
+//
+//
+// Shows list of all grades:
+//     System.out.println("would you like to see a list of all the students Grades?");
+// boolean userInput = input.yesNo();
+//
+// if (userInput = true) {
+//
+//     for (Student student : students.values()) {
+//         System.out.println("\n Student name is: " + student.getName());
+//
+//         System.out.println("their list of Grades is: ");
+//         for (Integer grade : student.getGrades()) {
+//             System.out.println(grade);
+//         }
+//     }
+// } else {
+//     System.out.println("no problem");
+// }
+//
+// Get grade average for all:
+//
+// ArrayList<Double> Averagesum=new ArrayList<>();
+// for (Student student : students.values()) {
+//     Averagesum.add( student.getGradeAverage());
+// }
+//
+// Gets grade of student plus average
+//
+// for (Student student : students.values()) {
+//     if (answer.equals(student.getName())) {
+//         System.out.println("this is their grade average: \n" + student.getGradeAverage());
+//         System.out.println("List of this Students Grades:");
+//         for (Integer grade : student.getGrades()) {
+//             System.out.println(grade);
+//         }
+//     }
+// }
+//
+// Gets total class average
+//
+// ArrayList<Double> Averagesum=new ArrayList<>();
+//
+// double bucket=0;
+// for (Student student : students.values()) {
+//     bucket +=student.getGradeAverage();
+//     Averagesum.add( student.getGradeAverage());
+// }
+// System.out.println("the total average of the class:"+bucket/Averagesum.size());
+//
 
