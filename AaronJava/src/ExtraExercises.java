@@ -17,7 +17,7 @@ public class ExtraExercises {
     }
 
     public String secLastChar(String input) {
-        return "Last character is: \n" + input.charAt(input.length()-2);
+        return "Second last character is: \n" + input.charAt(input.length()-2);
     }
 
     public boolean userWantsToContinue(String input) {
@@ -78,6 +78,8 @@ public class ExtraExercises {
             System.out.println("continue?: [y/n]");
 
         } while (first.userWantsToContinue(scan.nextLine()));
+        System.out.println(first.isEven(5));
+        System.out.println(first.isOdd(9));
         first.coinFlip();
         first.dndDiceRoll();
     }
